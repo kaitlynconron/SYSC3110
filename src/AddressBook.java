@@ -17,6 +17,10 @@ public class AddressBook {
         this.book.remove(pal);
     }
 
+    public String getName(BuddyInfo pal) {
+        return pal.getName();
+    }
+
     public static void main(String[] args) {
 
         AddressBook ab = new AddressBook();
