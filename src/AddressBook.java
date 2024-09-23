@@ -8,7 +8,9 @@ public class AddressBook {
     }
 
     public void addBuddy(BuddyInfo pal) {
-        this.book.add(pal);
+        if(pal != null) {
+            this.book.add(pal);
+        }
     }
 
     public void removeBuddy(BuddyInfo pal) {
